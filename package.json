@@ -1,0 +1,24 @@
+{
+  "name": "watchparty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "livekit": ".\\livekit_1.13.4_windows_amd64\\livekit-server.exe --dev --keys \"watchparty: devsecret123\"",
+    "client": "cd client && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "i": "^0.3.7",
+    "livekit-server-sdk": "^2.17.0",
+    "socket.io": "^4.8.3"
+  }
+}
